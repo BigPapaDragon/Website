@@ -1,0 +1,221 @@
+body{
+	color: black;
+	font-family: roboto;
+}
+
+/*navigation*/
+
+nav{
+	background: #021428;
+	width: 1903px;
+	height: 70px;
+}
+
+a {
+	line-height: 4;
+	color: white;
+	font-weight: bolder;
+	text-decoration: none;
+	margin-left: 20px;
+	position: relative;
+	top: -13px;
+	left: 40px;
+}
+
+a:hover {
+	color: yellow;
+}
+
+/*section on index page*/
+section#paragraph {
+	text-align: center;
+}
+
+/*section on services page*/
+section#services-main{
+	margin: 100px;
+	text-align: left;
+}
+
+section#services-main1{
+	margin: 100px;
+	text-align: left;
+}
+
+
+/*the following code refers to a particular class*/
+a.active{
+	color: lime;
+}
+
+/* the following code refers to a particular object with an id */
+img#logo{
+	margin-left: 402px;
+	margin-right: 20px;
+	margin-top: 14px;
+}
+
+/* slideshow*/
+
+img#slideshow{
+	border-bottom: 10px solid #021428;
+	width: 100%;
+}
+
+/*portfolio page title */
+h1#page-title {
+	margin-left: 121px;
+}
+
+/*portfolio page */
+img#project1-image, img#project2-image,img#project3-image,img#project4-image{
+	margin-left: 121px;
+	border-bottom: 10px solid #021428;
+}
+
+div#project1{
+	margin-left: 831px;
+	position: absolute;
+	top: 121px;
+	left: 0px;
+	width:670px;
+}
+
+a.project1-button{
+	width: 100px;
+	height: 60px;
+	background: #c51a1a;
+	position: relative;
+	padding: 20px;
+	text-align: 4px;
+	left: -21px;
+	color: white;
+}
+
+div#project2{
+	margin-left: 831px;
+	position: absolute;
+	top: 485px;
+	left: 0px;
+	width:670px;
+}
+
+a.project2-button{
+	width: 100px;
+	height: 60px;
+	background: #c51a1a;
+	position: relative;
+	padding: 20px;
+	text-align: 4px;
+	left: -21px;
+	color: white;
+}
+
+section#project2{
+	margin-top: 50px;
+}
+
+div#project3{
+	margin-left: 831px;
+	position: absolute;
+	top: 850px;
+	left: 0px;
+	width:670px;
+}
+
+a.project3-button{
+	width: 100px;
+	height: 60px;
+	background: #c51a1a;
+	position: relative;
+	padding: 20px;
+	text-align: 4px;
+	left: -21px;
+	color: white;
+}
+
+section#project3{
+	margin-top: 50px;
+}
+
+div#project4{
+	margin-left: 831px;
+	position: absolute;
+	top: 1211px;
+	left: 0px;
+	width:670px;
+}
+
+a.project4-button{
+	width: 100px;
+	height: 60px;
+	background: #c51a1a;
+	position: relative;
+	padding: 20px;
+	text-align: 4px;
+	left: -21px;
+	color: white;
+}
+
+section#project4{
+	margin-top: 50px;
+}
+
+/*about page */
+h1#page-title-about{
+	margin-left: 60px;
+}
+
+img#about-image{
+	margin-top: -20px;
+	margin-left: 60px;
+	border-bottom: 10px solid #021428;
+}
+
+section#about{
+	margin-left: 831px;
+	position: absolute;
+	top: 105px;
+	left: 0px;
+	width:670px;
+	font-size: 14px;
+}
+
+/* this the styling of the contact page */
+
+h1#page-title-contact{
+	margin-left: 400px;
+	font-weight: bolder;
+}
+
+form#contactform{
+	margin-left: 400px;
+}
+
+button{
+	border-style: ridge;
+	font-weight: bolder;
+	height: 25px;
+	background: #215afd;
+	color: white;
+}
+
+section#contact_page_info{
+	position: absolute;
+	top:100px;
+	left: 1010px;
+}
+
+/*footer*/
+footer {
+	margin-top: 50px;
+	background: #021428;
+	width: 100%;
+	height: 215px;
+	color: white;
+}
+
+p#footer-text {
+	line-height: 13;
+	text-align: center;
+}
